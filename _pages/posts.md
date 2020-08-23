@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: Experience
-description: "List of experiences"
-permalink: /experience.html
+title: Certificate
+description: "List of certifications"
+permalink: /certificates.html
 ---
