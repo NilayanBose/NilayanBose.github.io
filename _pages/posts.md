@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: Posts
-description: "List of posts"
-permalink: /posts.html
+title: Experience
+description: "List of experiences"
+permalink: /experience.html
 ---
