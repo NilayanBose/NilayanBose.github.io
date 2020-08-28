@@ -22,7 +22,16 @@ layout: compress
       </a>
       <div class="content">
         <ul class="posts-list">
-        {% for post in site.posts %}
+        <li>
+          <h2>
+            <a href="" class="post-title">
+              <span>SQL Associate Certificate</span>
+            </a>
+            <span class="date">{{ "2016-06-29" | date: '%d %b %Y' }}</span>
+          </h2>
+          <p>ASR45678</p>
+        </li>
+        {% comment %} {% for post in site.posts %}
           <li>
             <h2>
               <a href="{{ site.url }}{{ post.url }}" class="post-title">
@@ -39,7 +48,7 @@ layout: compress
             {% endfor %}
             </ul>
           </li>
-          {% endfor %}
+          {% endfor %} {% endcomment %}
         </ul>
       </div>
     </div>
